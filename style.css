@@ -1,0 +1,117 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Raleway;
+}
+
+img{
+    position: relative;
+}
+a{
+ color: green;
+}
+
+.btn-two{
+    width: 100px;
+    position: relative;
+    top: 10px;
+}
+
+.fa-facebook {
+    background: lightgrey;
+    color: white;
+}
+
+.fa-twitter {
+    background: lightgrey;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: lightgrey;
+    color: white;
+}
+
+.fa {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px;
+    margin: 4px;
+   
+}
+/* 
+@media(max-width: 768px){
+ 
+    .illu-one{
+        width: 60%;
+    }
+    .illu-two{
+        width: 60%;
+    }
+
+    .btn{
+        width: 60%;
+        position: relative;
+        right: 20px;
+    }
+    .form-control{
+        width: 80%;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+    .btn-two{
+        width: 50%;
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+} */
+
+
+@media(max-width: 768px){
+    .logo{
+        width: 20%;
+    }
+
+    .illu-one{
+        width: 50%;
+    }
+
+    .illu-two{
+        width: 50%;
+    }
+
+    .form-control{
+        width: 60%;
+    }
+    .btn{
+        position: relative;
+        right: 30px;
+    }
+
+    .btn-two{
+        position: relative;
+        left: 16%;
+    }
+    .form-control-two{
+        width: 90%;
+        padding: 6px;
+        border-radius: 13px;
+    }
+
+    .second-logo{
+        width: 30%;
+    }
+
+    .bg{
+        width: 80%;
+    }
+}
