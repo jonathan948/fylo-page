@@ -6,17 +6,13 @@ body{
     font-family: Raleway;
 }
 
-img{
-    position: relative;
-}
+
 a{
  color: green;
 }
 
 .btn-two{
-    width: 100px;
-    position: relative;
-    top: 10px;
+ width: 20%;
 }
 
 .fa-facebook {
@@ -41,42 +37,30 @@ a{
     text-align: center;
     line-height: 40px;
     border-radius: 30px;
-    margin: 4px;
-   
+    margin: 4px; 
 }
-/* 
-@media(max-width: 768px){
- 
-    .illu-one{
-        width: 60%;
-    }
-    .illu-two{
-        width: 60%;
-    }
-
-    .btn{
-        width: 60%;
-        position: relative;
-        right: 20px;
-    }
-    .form-control{
-        width: 80%;
-    }
-
-    .logo{
-        width: 20%;
-    }
-
-    .btn-two{
-        width: 50%;
-        position: relative;
-        left: 20px;
-        top: 10px;
-    }
-} */
 
 
-@media(max-width: 768px){
+
+.form-group-three{
+    width: 60%;
+    border: solid 1px white;
+}
+
+
+.lorem{
+    list-style: none;
+    float: right;
+    display: flex;
+}
+
+.icon{
+    list-style: none;
+}
+
+
+
+/* @media(max-width: 768px){
     .logo{
         width: 20%;
     }
@@ -114,4 +98,26 @@ a{
     .bg{
         width: 80%;
     }
+
+} */
+
+
+@media(max-width: 768px){
+  .logo{
+      width: 20%;
+  }
+
+  .illu-one{
+      width: 100%;
+  }
+
+  
+  .illu-two{
+    width: 100%;
+}
+
+.btn-two{
+    width: 30%;
+}
+
 }
